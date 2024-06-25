@@ -13,8 +13,6 @@ from discord import FFmpegPCMAudio, Member, user
 
 bot = commands.Bot(command_prefix='!',intents=discord.Intents.all())
 
-TOKEN = TOKEN.EVE
-
 eve_icon = 'https://media.discordapp.net/attachments/1012033549207076894/1242194388516601980/IMG_0398z.png?ex=664eed6d&is=664d9bed&hm=6a6c42bc54cba0418926c83ff4d3bdc1958a8355cae7655d0d8dad48091b27b2&=&format=webp&quality=lossless&width=701&height=701'
 eve_iconf = 'https://media.discordapp.net/attachments/1012033549207076894/1240339785692745819/Untitled-1-Recovered.png?ex=664633f1&is=6644e271&hm=8b363d2e40c166d5793139a768fee49c42af52212ceffe5f74820fc222905658&=&format=webp&quality=lossless&width=701&height=701'
 eve_image = 'https://media.discordapp.net/attachments/1012033549207076894/1237744870500728852/IMG_0397.png?ex=6645fdbd&is=6644ac3d&hm=6500a9bc2947e3764140481bc9f5d851421ac87f7ed3936af7de752376aedb2d&=&format=webp&quality=lossless&width=1079&height=701'
