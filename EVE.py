@@ -1,10 +1,10 @@
 import discord
+import os
 from discord.ext import commands
 import json
 import asyncio
 import yt_dlp
-import TOKEN
-#from myserver import server_on
+from myserver import server_on
 
 import urllib.parse, urllib.request, re
 from gtts import gTTS, lang
@@ -679,6 +679,6 @@ async def stand(ctx):
     else:
         await ctx.send("เริ่มตาใหม่กด !blackjack")
 
-#server_on()
+server_on()
 
-bot.run(TOKEN)
+bot.run(os.getenv("TOKEN"))
